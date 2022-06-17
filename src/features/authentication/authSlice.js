@@ -66,7 +66,6 @@ const authSlice = createSlice({
     [signupHandler.rejected]: (state, { payload }) => {
       state.status = "rejected";
       state.error = payload.error;
-      toast.error(state.error);
     },
   },
 });
