@@ -26,7 +26,7 @@ const SideBar = () => {
         </li>
         <li className=" flex items-center justify-center xl:justify-start  space-x-3">
           <NavLink
-            to="/"
+            to="/explore"
             className="space-x-2  hover:bg-[#d9d9d9] hover:bg-opacity-10 hover:rounded-full w-[52px] h-[52px] xl:w-auto xl:h-auto xl:py-3 xl:px-4 transition duration-200 ease-out"
           >
             <i className="text-[#d9d9d9] fas fa-hashtag h-7 text-xl "></i>
@@ -38,7 +38,7 @@ const SideBar = () => {
         </li>
         <li className=" flex items-center justify-center xl:justify-start  space-x-3">
           <NavLink
-            to="/"
+            to="/bookmarks"
             className="space-x-2  hover:bg-[#d9d9d9] hover:bg-opacity-10 hover:rounded-full w-[52px] h-[52px] xl:w-auto xl:h-auto xl:py-3 xl:px-4 transition duration-200 ease-out"
           >
             <i className="text-[#d9d9d9] fas fa-bookmark h-7 text-xl "></i>
@@ -67,7 +67,7 @@ const SideBar = () => {
         </li>
 
         <li className="absolute bottom-0">
-          <NavLink to="/">
+          <NavLink to="/xt">
             <div className=" flex items-center justify-center xl:ml-auto xl:-mr-5 mt-auto  hover:bg-[#d9d9d9] hover:bg-opacity-10 hover:rounded-full w-[52px] h-[52px] xl:w-auto xl:h-auto xl:py-3 xl:px-4 transition duration-200 ease-out">
               <img
                 src={user.avatarURL}
