@@ -12,6 +12,8 @@ export const users = [
     lastName: "Singh",
     username: "shubham",
     password: "shubham870@",
+    avatarURL:
+      "https://pbs.twimg.com/profile_images/1459824041930358789/4OOch29W_400x400.jpg",
     createdAt: formatDate(),
     updatedAt: formatDate(),
   },
