@@ -3,7 +3,7 @@ import { Feed } from "../components/Feed";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex max-w-[1600px] mx-auto ">
+    <div className=" bg-black min-h-screen flex max-w-[1600px] mx-auto ">
       <SideBar />
       <Feed/>
      
